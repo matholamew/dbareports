@@ -4,10 +4,10 @@ CREATE TABLE [info].[SuspectPages]
 [DatabaseID] [int] NOT NULL,
 [DateChecked] [datetime] NOT NULL,
 [FileName] [varchar] (2000) COLLATE Latin1_General_CI_AS NOT NULL,
-[Page_id] [bigint] NOT NULL,
+[PageID] [bigint] NOT NULL,
 [EventType] [nvarchar] (24) COLLATE Latin1_General_CI_AS NOT NULL,
-[Error_count] [int] NOT NULL,
-[last_update_date] [datetime] NOT NULL,
+[ErrorCount] [int] NOT NULL,
+[LastUpdateDate] [datetime] NOT NULL,
 [InstanceID] [int] NOT NULL
 ) ON [PRIMARY]
 GO

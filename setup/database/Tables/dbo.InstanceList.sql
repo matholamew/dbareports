@@ -6,7 +6,7 @@ CREATE TABLE [dbo].[InstanceList]
 [ComputerName] [nvarchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
 [ServerName] [nvarchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
 [InstanceName] [nvarchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
-[isClustered] [bit] NOT NULL,
+[IsClustered] [bit] NOT NULL,
 [Port] [int] NOT NULL,
 [Inactive] [bit] NULL CONSTRAINT [DF_InstanceList_Inactive] DEFAULT ((0)),
 [Environment] [nvarchar] (25) COLLATE Latin1_General_CI_AS NULL,

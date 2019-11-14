@@ -15,7 +15,7 @@ CREATE TABLE [info].[SQLInfo]
 [SQLServiceAccount] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
 [SQLService] [nvarchar] (30) COLLATE Latin1_General_CI_AS NULL,
 [SQLServiceStartMode] [nvarchar] (30) COLLATE Latin1_General_CI_AS NULL,
-[BAckupDirectory] [nvarchar] (256) COLLATE Latin1_General_CI_AS NULL,
+[BackupDirectory] [nvarchar] (256) COLLATE Latin1_General_CI_AS NULL,
 [BrowserAccount] [nvarchar] (50) COLLATE Latin1_General_CI_AS NULL,
 [BrowserStartMode] [nvarchar] (25) COLLATE Latin1_General_CI_AS NULL,
 [IsSQLClustered] [bit] NULL,

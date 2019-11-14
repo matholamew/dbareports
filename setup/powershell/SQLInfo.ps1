@@ -158,6 +158,10 @@ PROCESS
 		{ $Version = 'SQL 2014' }
 		if ($VersionMajor -eq 13)
 		{ $Version = 'SQL 2016' }
+		if ($VersionMajor -eq 14)
+		{ $Version = 'SQL 2017' }
+		if ($VersionMajor -eq 15)
+		{ $Version = 'SQL 2019' }
 		
 		if ($server.IsHadrEnabled -eq $True)
 		{

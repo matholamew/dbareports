@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[NotEntered]
 (
-[date] [datetime] NOT NULL,
-[Notentered] [int] NOT NULL
+[Date] [datetime] NOT NULL,
+[NotEntered] [int] NOT NULL
 ) ON [PRIMARY]
 GO
